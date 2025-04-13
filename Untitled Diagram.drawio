@@ -1,38 +1,28 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Page-1" id="Y5n0u7UhCH5RIb52nY5Y">
-    <mxGraphModel>
+    <mxGraphModel dx="542" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="CUSTOMER" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="127" y="20" width="100" height="75" as="geometry" />
+        <mxCell id="3" value="Consulter et gérer les dossiers des patients" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-40" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="ORDER" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="195" width="100" height="75" as="geometry" />
+        <mxCell id="4" value="Planifier et modifier les rendez-vous" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="40" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="LINE-ITEM" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="370" width="100" height="75" as="geometry" />
+        <mxCell id="8LhcdgJ92V2tPW80MHwQ-10" value="cabinet dentaire" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-110" width="450" height="1200" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="DELIVERY-ADDRESS" style="shape=table;startSize=75;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="195" width="130" height="75" as="geometry" />
+        <mxCell id="8LhcdgJ92V2tPW80MHwQ-11" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:428,&amp;quot;end&amp;quot;:562},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:515,&amp;quot;end&amp;quot;:562}]&quot;&gt;&lt;b&gt;Ajouter et consulter les traitements et soins&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="places" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0.04;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="70" y="145" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="8LhcdgJ92V2tPW80MHwQ-15" value="Dentiste" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="contains" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERoneToMany;endSize=10;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8" value="uses" style="curved=1;dashed=1;startArrow=ERoneToMany;startSize=10;;endArrow=ERoneToMany;endSize=10;;exitX=0.96;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="285" y="145" />
-            </Array>
+        <mxCell id="8LhcdgJ92V2tPW80MHwQ-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.019;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8LhcdgJ92V2tPW80MHwQ-15" target="3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="70" as="sourcePoint" />
+            <mxPoint x="200" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
