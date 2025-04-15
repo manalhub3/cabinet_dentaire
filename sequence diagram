@@ -162,14 +162,14 @@
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-23" value="comparerMotDePasse()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="820" y="320" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BVk6QAwPXh2vY3tQzuPU-24" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=-0.024;exitY=0.456;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BVk6QAwPXh2vY3tQzuPU-23">
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-24" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=-0.024;exitY=0.456;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="700" y="334.33" as="sourcePoint" />
-            <mxPoint x="480" y="334" as="targetPoint" />
+            <mxPoint x="818.1999999999998" y="314.3299999999999" as="sourcePoint" />
+            <mxPoint x="481.8" y="314.65" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-25" value="connexionRéussie(typeUtilisateur)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="300" width="210" height="30" as="geometry" />
+          <mxGeometry x="540" y="280" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-26" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -181,7 +181,7 @@
           <mxGeometry x="230" y="300" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-28" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="150" y="235" width="670" height="185" as="geometry" />
+          <mxGeometry x="150" y="250" width="670" height="180" as="geometry" />
         </mxCell>
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BVk6QAwPXh2vY3tQzuPU-28" target="BVk6QAwPXh2vY3tQzuPU-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -194,6 +194,24 @@
         </mxCell>
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-32" value="&lt;b&gt;[Mot de passe incorrect]&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="350" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-33" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="475" y="410" as="sourcePoint" />
+            <mxPoint x="145" y="410.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-34" value="&amp;nbsp;afficherErreur()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="380" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-35" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=-0.024;exitY=0.456;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="813" y="394.33" as="sourcePoint" />
+            <mxPoint x="477" y="394.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-36" value="erreur(&quot;Identifiants invalides&quot;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
