@@ -83,7 +83,7 @@
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-6" value="ServiceAuth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="90" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BVk6QAwPXh2vY3tQzuPU-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-7" value="BaseDeDonnées" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="90" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BVk6QAwPXh2vY3tQzuPU-4" target="BVk6QAwPXh2vY3tQzuPU-3">
@@ -108,16 +108,59 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="820" y="410" as="sourcePoint" />
             <mxPoint x="870" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="340" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="250" as="sourcePoint" />
-            <mxPoint x="820" y="250" as="targetPoint" />
+            <mxPoint x="480" y="238" as="sourcePoint" />
+            <mxPoint x="820" y="238" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BVk6QAwPXh2vY3tQzuPU-13" value="vérifierIdentifiants(email, motDePasse)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="208" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-14" value="BaseDeDonnées" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="260" as="sourcePoint" />
+            <mxPoint x="1110" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BVk6QAwPXh2vY3tQzuPU-14" target="BVk6QAwPXh2vY3tQzuPU-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="310" as="sourcePoint" />
+            <mxPoint x="1130" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-17" value="getUtilisateurParEmail(email)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-20" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1110" y="300" as="sourcePoint" />
+            <mxPoint x="820" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-21" value="donnéesUtilisateur" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="350" as="sourcePoint" />
+            <mxPoint x="820" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="350" />
+              <mxPoint x="880" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVk6QAwPXh2vY3tQzuPU-23" value="comparerMotDePasse()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="320" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
